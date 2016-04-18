@@ -1,0 +1,12 @@
+<ion-navbar *navbar>
+  <ion-title>Tab 1</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <h2>Welcome to Ionic!</h2>
+  <ul>
+    <li *ngFor="#p of myData">{{p.name}}</li>
+  </ul>
+  <input type="text" #item />
+  <button (click)="add(item.value); item.value = '';">Add Item</button>
+</ion-content>

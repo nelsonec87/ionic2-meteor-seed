@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose readDependencies loading dependencies from C:\Users\nelson\seed\package.json
+5 warn package.json teste4@ No repository field.
+6 warn package.json teste4@ No README data
+7 warn package.json teste4@ No license field.
+8 verbose install where, deps [ 'C:\\Users\\nelson\\seed',
+8 verbose install   [ 'angular2-meteor',
+8 verbose install     'es6-promise',
+8 verbose install     'es6-shim',
+8 verbose install     'ionic-angular',
+8 verbose install     'ionic-native',
+8 verbose install     'ionicons',
+8 verbose install     'reflect-metadata',
+8 verbose install     'rxjs',
+8 verbose install     'zone.js',
+8 verbose install     'del',
+8 verbose install     'gulp',
+8 verbose install     'gulp-watch',
+8 verbose install     'ionic-gulp-browserify-typescript',
+8 verbose install     'ionic-gulp-fonts-copy',
+8 verbose install     'ionic-gulp-html-copy',
+8 verbose install     'ionic-gulp-sass-build',
+8 verbose install     'ionic-gulp-scripts-copy',
+8 verbose install     'run-sequence' ] ]
+9 verbose install where, peers [ 'C:\\Users\\nelson\\seed', [] ]
+10 verbose installManyTop reading for lifecycle C:\Users\nelson\seed\package.json
+11 info preinstall teste4@
+12 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\angular2\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\angular2-meteor\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\del\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\es6-promise\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\es6-shim\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\gulp\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\gulp-watch\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-angular\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-gulp-browserify-typescript\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-gulp-fonts-copy\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-gulp-html-copy\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-gulp-sass-build\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-gulp-scripts-copy\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionic-native\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\ionicons\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\reflect-metadata\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\run-sequence\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\rxjs\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\nelson\seed\node_modules\zone.js\package.json
+31 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+32 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+33 verbose readDependencies loading dependencies from C:\Users\nelson\seed\package.json
+34 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\angular2\package.json
+35 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\angular2-meteor\package.json
+36 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\del\package.json
+37 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\es6-promise\package.json
+38 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\es6-shim\package.json
+39 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\gulp\package.json
+40 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\gulp-watch\package.json
+41 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-angular\package.json
+42 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-gulp-browserify-typescript\package.json
+43 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-gulp-fonts-copy\package.json
+44 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-gulp-html-copy\package.json
+45 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-gulp-sass-build\package.json
+46 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-gulp-scripts-copy\package.json
+47 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionic-native\package.json
+48 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\ionicons\package.json
+49 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\reflect-metadata\package.json
+50 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\run-sequence\package.json
+51 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\rxjs\package.json
+52 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\zone.js\package.json
+53 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\.bin\gulp\package.json
+54 verbose targetResolver reading package data from C:\Users\nelson\seed\node_modules\.bin\gulp.cmd\package.json
+55 verbose already installed skipping ionic-gulp-fonts-copy@^1.0.0 C:\Users\nelson\seed
+56 verbose already installed skipping ionic-gulp-html-copy@^1.0.0 C:\Users\nelson\seed
+57 verbose already installed skipping ionic-gulp-sass-build@^1.0.0 C:\Users\nelson\seed
+58 verbose already installed skipping ionic-gulp-scripts-copy@^1.0.0 C:\Users\nelson\seed
+59 verbose already installed skipping run-sequence@1.1.5 C:\Users\nelson\seed
+60 verbose already installed skipping angular2-meteor@^0.5.2 C:\Users\nelson\seed
+61 verbose already installed skipping es6-promise@3.0.2 C:\Users\nelson\seed
+62 verbose already installed skipping es6-shim@^0.35.0 C:\Users\nelson\seed
+63 verbose already installed skipping ionic-angular@2.0.0-beta.4 C:\Users\nelson\seed
+64 verbose already installed skipping ionic-native@^1.1.0 C:\Users\nelson\seed
+65 verbose already installed skipping ionicons@3.0.0-alpha.3 C:\Users\nelson\seed
+66 verbose already installed skipping reflect-metadata@0.1.2 C:\Users\nelson\seed
+67 verbose already installed skipping rxjs@5.0.0-beta.2 C:\Users\nelson\seed
+68 verbose already installed skipping zone.js@0.6.6 C:\Users\nelson\seed
+69 verbose already installed skipping del@2.2.0 C:\Users\nelson\seed
+70 verbose already installed skipping gulp@3.9.1 C:\Users\nelson\seed
+71 verbose already installed skipping gulp-watch@4.3.5 C:\Users\nelson\seed
+72 verbose already installed skipping ionic-gulp-browserify-typescript@^1.0.0 C:\Users\nelson\seed
+73 silly install resolved []
+74 info build C:\Users\nelson\seed
+75 info linkStuff teste4@
+76 silly linkStuff teste4@ has C:\Users\nelson as its parent node_modules
+77 verbose linkBins teste4@
+78 verbose linkMans teste4@
+79 verbose rebuildBundles teste4@
+80 verbose rebuildBundles [ '.bin',
+80 verbose rebuildBundles   'angular2',
+80 verbose rebuildBundles   'angular2-meteor',
+80 verbose rebuildBundles   'del',
+80 verbose rebuildBundles   'es6-promise',
+80 verbose rebuildBundles   'es6-shim',
+80 verbose rebuildBundles   'gulp',
+80 verbose rebuildBundles   'gulp-watch',
+80 verbose rebuildBundles   'ionic-angular',
+80 verbose rebuildBundles   'ionic-gulp-browserify-typescript',
+80 verbose rebuildBundles   'ionic-gulp-fonts-copy',
+80 verbose rebuildBundles   'ionic-gulp-html-copy',
+80 verbose rebuildBundles   'ionic-gulp-sass-build',
+80 verbose rebuildBundles   'ionic-gulp-scripts-copy',
+80 verbose rebuildBundles   'ionic-native',
+80 verbose rebuildBundles   'ionicons',
+80 verbose rebuildBundles   'reflect-metadata',
+80 verbose rebuildBundles   'run-sequence',
+80 verbose rebuildBundles   'rxjs',
+80 verbose rebuildBundles   'zone.js' ]
+81 verbose rebuild bundle C:\Users\nelson\seed\node_modules\angular2
+82 info build C:\Users\nelson\seed\node_modules\angular2
+83 info preinstall angular2@2.0.0-beta.12
+84 info linkStuff angular2@2.0.0-beta.12
+85 silly linkStuff angular2@2.0.0-beta.12 has C:\Users\nelson\seed\node_modules as its parent node_modules
+86 verbose linkBins angular2@2.0.0-beta.12
+87 verbose linkMans angular2@2.0.0-beta.12
+88 verbose rebuildBundles angular2@2.0.0-beta.12
+89 info install angular2@2.0.0-beta.12
+90 info postinstall angular2@2.0.0-beta.12
+91 info install teste4@
+92 info postinstall teste4@
+93 info prepublish teste4@
+94 verbose validateInstall loading C:\Users\nelson\seed\package.json for validation
+95 verbose stack Error: The package angular2@2.0.0-beta.12 does not satisfy its siblings' peerDependencies requirements!
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+95 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+95 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+95 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+95 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+96 verbose cwd C:\Users\nelson\seed
+97 error Windows_NT 10.0.10586
+98 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+99 error node v4.0.0
+100 error npm  v2.14.2
+101 error code EPEERINVALID
+102 error peerinvalid The package angular2@2.0.0-beta.12 does not satisfy its siblings' peerDependencies requirements!
+102 error peerinvalid Peer angular2-meteor@0.5.2 wants angular2@2.0.0-beta.12
+102 error peerinvalid Peer ionic-angular@2.0.0-beta.4 wants angular2@^2.0.0-beta.13
+103 verbose exit [ 1, true ]
